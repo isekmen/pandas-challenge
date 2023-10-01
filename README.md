@@ -54,8 +54,7 @@ Create a table that breaks down school performance based on average spending ran
 Create a table that breaks down school performance based on average spending ranges (per student).
 Use the code provided below to create four bins with reasonable cutoff values to group school spending.
 
-
-
+![Screenshot 2023-10-01 133044](https://github.com/isekmen/pandas-challenge/assets/101214487/0c9be15a-5e05-402c-af0f-c2cd422f9c0b)
 
 
 Use pd.cut to categorize spending based on the bins.
@@ -63,7 +62,7 @@ Use pd.cut to categorize spending based on the bins.
 Use the following code to then calculate mean scores per spending range.
 
 
-
+![Screenshot 2023-10-01 133108](https://github.com/isekmen/pandas-challenge/assets/101214487/8eb47d80-b7b2-47e5-b514-e446051face1)
 
 
 Use the scores above to create a DataFrame called spending_summary.
@@ -82,6 +81,8 @@ Average reading score
 
 # Scores by School Size
 Use the following code to bin the per_school_summary.
+
+![Screenshot 2023-10-01 133150](https://github.com/isekmen/pandas-challenge/assets/101214487/da55368f-c81d-4f31-b582-f95110b9b720)
 
 
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
